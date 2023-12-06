@@ -5,15 +5,17 @@ import RightSideNav from "../Shared/RightSideNav/RightSideNav";
 
 
 const News = () => {
-    const {id}=useParams();
+    const {id }=useParams();
+   
     return (
         <div>
             <Header></Header>
             <Navbar></Navbar>
             <div className="grid md:grid-cols-4">
                 <div className="col-span-3">
-                    <h2  className="text-5xl">News details</h2>
+                    <h2  className="text-5xl ">News details</h2>
                     <p>{id}</p>
+                    
                     
                 </div>
 

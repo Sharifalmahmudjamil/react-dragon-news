@@ -8,6 +8,7 @@ import NewsCard from "./NewsCard";
 
 
 
+
 const Home = () => {
     const news= useLoaderData();
     console.log(news);
@@ -17,7 +18,7 @@ const Home = () => {
             <BreakingNews></BreakingNews>
             <Navbar></Navbar>
             
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 ">
                 <div>
                     <LeftSideNav></LeftSideNav>
                 </div>
@@ -30,6 +31,7 @@ const Home = () => {
                         ></NewsCard>
                         )
                     }
+                
                 </div>
 
                 <div>
